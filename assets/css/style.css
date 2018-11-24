@@ -20,3 +20,9 @@ body {
 .charTitle, .charScore {
     margin: 10px;
 }
+
+
+
+ .charPick {
+     background-color: red;
+ }
