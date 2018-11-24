@@ -1,0 +1,22 @@
+
+body {
+    background-image: url('https://i.imgur.com/DEPvTPZ.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.row {
+    flex-direction: row;
+}
+
+.charBox {
+    padding: 5px;
+    margin: 25px;
+    background-color: rgb(119, 136, 153, .5);
+    border: 1px solid #888888;
+}
+
+.charTitle, .charScore {
+    margin: 10px;
+}
