@@ -5,6 +5,8 @@ $(document).ready(function () {
     var enemyChar;
     var charChosen = 0;
 
+    var charOther;
+
     $(".charBox").on("click", function () {
 
         if (charChosen < 1) {
@@ -16,9 +18,24 @@ $(document).ready(function () {
         } else if (charChosen < 2) {
             charChosen++;
             enemyChar = $(this);
-            $(".charPick").remove();
+            // $(".charPick").remove();
             $("#enemyChar").append(enemyChar);
-            
+
+            charOther = $("#char_all > .charBox");
+            $("#char_all > .charBox").remove();
+            $("#enemyAvail").append(charOther);
+
+            $("#yourChar").css({
+                "background-color": "white",
+                "color": "black"
+            });
+
+            $("#enemyChar").css({
+                "background-color": "black",
+                "color": "white"
+            });
+
+            $("#enemyAvail").css("background-color", "red");
         }
 
 
