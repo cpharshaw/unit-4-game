@@ -57,3 +57,6 @@ img {
 }
 
 
+style, head {
+    visibility: hidden;
+}

@@ -86,7 +86,7 @@ $(document).ready(function () {
                 enemyHealth = 150;
                 enemyHP = 18;
             } else if (enemyID === "char_dml") {
-                enemyHealth = 180;
+                enemyHealth = 165;
                 enemyHP = 17;
             }
 
