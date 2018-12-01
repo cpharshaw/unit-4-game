@@ -1,8 +1,10 @@
 
+
 body {
-    background-image: url('https://i.imgur.com/DEPvTPZ.jpg');
+    background-image: url('https://i.imgur.com/e52NEl2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+ 
 }
 
 
@@ -10,15 +12,23 @@ body {
     flex-direction: row;
 }
 
-.charBox {
-    padding: 5px;
-    margin: 25px;
-    background-color: rgb(119, 136, 153, .5);
-    border: 1px solid #888888;
+img {
+    width: 17vw;
+    height: auto;
 }
 
+
+.charBox {
+    padding: 5px;
+    margin: 15px;
+    background-color: rgb(119, 136, 153, .5);
+    border: 1px solid #888888;
+    z-index: 100;
+}
+
+
 .charTitle, .charScore {
-    margin: 10px;
+    margin: 5px;
 }
 
 
@@ -32,12 +42,18 @@ body {
     background-color: rgb(255, 0, 0, .5);
  }
 
- .black {
-    background-color: rgb(0, 0, 0, .5);
-    color: white 
+
+ .white {
+    background-color: rgb(255, 255, 255, .5);
+    color: black;
+    margin: 5px 5px 10px 0;
 }
 
-.white {
-    background-color: rgb(255, 255, 255, .5);
-    color: black 
+
+ .black {
+    background-color: rgb(0, 0, 0, .5);
+    color: white;
+    margin: 5px 0 10px 5px;
 }
+
+
